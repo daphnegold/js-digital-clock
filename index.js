@@ -8,7 +8,7 @@ function ampm(hour) {
 }
 
 function happyHour(hour) {
-  return (hour >= 17) ? "IT'S HAPPY HOUR TIME!" : "HAPPY HOUR IS IN ABOUT " + (17 - hour);
+  return (hour >= 17 && hour <= 23) ? "IT'S HAPPY HOUR TIME!" : "HAPPY HOUR IS IN ABOUT " + (17 - hour) + "HOURS!";
 }
 
 function formatTime(unit) {
